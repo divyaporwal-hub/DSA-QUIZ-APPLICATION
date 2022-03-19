@@ -2,71 +2,114 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "With what data structure can a priority queue be implemented?",
+    answer: "Heap",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+        "Array",
+        "List",
+        "Heap",
+        "Tree",
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Which one of the below mentioned is linear data structure ?",
+    answer: "All of the above",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+       "Queue",  
+       "Stack",
+       "Arrays",
+       "All of the above",
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Program with highest run-time complexity is-",
+    answer: "Tower of Hanoi",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "Tower of Hanoi",
+      "Fibonacci Series",
+      "Prime Number Series",
+      "None of the above",
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "What data structure is used when converting an infix notation to prefix notation?",
+    answer: "Stack",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "Stack",
+      "Queue",
+      "B-Trees",
+      "Linked-list",
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: " Which data structure can be used to test a palindrome?",
+    answer: "Stack",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "Tree",
+      "Heap",
+      "Stack",
+      "Priority queue",
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
 
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
+    {
+    numb: 6,
+    question: "What would be the asymptotic time complexity to find an element in the linked list?",
+    answer: "O(n)",
+    options: [
+        "O(1)",
+        "O(n)",
+        "O(n2)",
+        "O(n4)",
+    ]
+  },
+  {
+    
+    numb: 7,
+    question: "Which of the following is not the type of queue?",
+    answer: "Single ended queue",
+    options: [
+      "Ordinary queue",
+      "Single ended queue",
+      "Circular queue",
+      "Priority queue",
+    ]
+  },
+  {
+    numb: 8,
+    question: "The data structure required for Breadth First Traversal on a graph is?",
+    answer: "Queue",
+    options: [
+        "Stack",
+        "Array",
+        "Queue",
+        "Tree",
+    ]
+  },
+  {
+    numb: 9,
+    question: "Q-9: What is the value of the postfix expression 6 3 2 4 + – *?",
+    answer: "-18",
+    options: [
+      "1",
+      "40",
+      "74",
+      "-18",
+    ]
+  },
+  {
+    numb: 10,
+    question: "How do you initialize an array in C?",
+    answer: "int arr[3] = {1,2,3};",
+    options: [
+     "int arr[3] = (1,2,3);",
+     "int arr(3) = {1,2,3};",
+     "int arr[3] = {1,2,3};",
+     "int arr(3) = (1,2,3);"
+    ]
+  },
 ];
