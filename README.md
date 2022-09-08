@@ -1,7 +1,7 @@
 # DSA-QUIZ-APPLICATION
 This application contains the 10 questions of DSA . It will predict your total marks at the end of the quiz.
 
-##Deployment link - [ https://divyaporwal-hub.github.io/DSA-QUIZ-APPLICATION/] (https://divyaporwal-hub.github.io/DSA-QUIZ-APPLICATION/)
+Deployment link -  https://divyaporwal-hub.github.io/DSA-QUIZ-APPLICATION/ 
 
 
 This is the main Page of the website
